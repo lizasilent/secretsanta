@@ -23,7 +23,6 @@ function Popup({ card, closePopup }) {
             <div className="popup__description">
               <p>
                 {card.text}
-                <span className="popup__logo"></span>
               </p>
             </div>
             <div className="popup__img_container">
@@ -33,6 +32,11 @@ function Popup({ card, closePopup }) {
               ><img src={card.image} alt={card.book}></img></div>
               <a className="popup__link" href={card.link} target="blank">
                 <p>Купить книгу</p>
+                <div className="popup__description">
+              <p>
+               {card.price} р.
+              </p>
+            </div>
               </a>
             </div>
           </div>

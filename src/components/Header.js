@@ -7,7 +7,7 @@ function Header() {
       <div className="header__content">
         <a href="https://www.podpisnie.ru/" target="blank"><div className="header__logo"></div></a>
         <p className="header__text">x</p>
-        <p className="header__text header__text_style">heartbrokenclub</p>
+        <p className="header__text header__text_style">secret santa</p>
       </div>
     </header>
   );
