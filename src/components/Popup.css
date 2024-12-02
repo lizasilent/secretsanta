@@ -23,7 +23,7 @@
   left: 50%;
   top: 10vh;
   transform: translateX(-50%);
-  background-color: rgb(248, 222, 222);
+  background-color: #FFEDDE;
   padding: 10px;
   min-height: 200px;
   box-sizing: border-box;
@@ -38,7 +38,7 @@
   padding: 20px;
   width: 100%;
   box-sizing: border-box;
-  border: 1px solid rgb(233, 2, 2);
+  border: 1px solid #B20514;
 }
 
 .popup__close-btn {
@@ -71,7 +71,8 @@
 .popup__header_red {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
-  color: red;
+  color: #B20514;
+  font-weight: bold;
   font-size: 40px;
   line-height: 1;
 }
@@ -93,16 +94,6 @@
   color: #000000;
   margin: 0 0 10px 5px;
   text-align: left;
-}
-
-.popup__logo {
-  display: inline-block;
-  background-image: url(../images/heart_logo.svg);
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 18px;
-  min-height: 12px;
-  margin-left: 3px;
 }
 
 .popup__description p {
